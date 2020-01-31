@@ -1,0 +1,26 @@
+{
+    "name": "chat_backend",
+    "version": "1.0.0",
+    "description": "Login con JWT Node JS, Mongo DB y MVC",
+    "main": "server.js",
+    "scripts": {
+        "start": "nodemon ./server.js"
+    },
+    "author": "Oscar Sandro Delgadillo Rivera",
+    "license": "MIT",
+    "devDependencies": {
+        "nodemon": "^2.0.2"
+    },
+    "dependencies": {
+        "bcryptjs": "^2.4.3",
+        "cors": "^2.8.5",
+        "express": "^4.17.1",
+        "http": "0.0.0",
+        "jsonwebtoken": "^8.5.1",
+        "lodash": "^4.17.15",
+        "moment": "^2.24.0",
+        "mongoose": "^5.8.5",
+        "socket.io": "^2.3.0",
+        "socketio-jwt": "^4.5.0"
+    }
+}
